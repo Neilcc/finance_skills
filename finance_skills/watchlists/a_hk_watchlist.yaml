@@ -1,0 +1,25 @@
+a_hk_watchlist:
+  core:
+    - {ticker: 300308.SZ, company: 中际旭创, theme: optical_interconnect, evidence: B/A}
+    - {ticker: 300502.SZ, company: 新易盛, theme: optical_interconnect, evidence: B/A}
+    - {ticker: 002463.SZ, company: 沪电股份, theme: ai_pcb, evidence: S/B}
+    - {ticker: 300476.SZ, company: 胜宏科技, theme: ai_pcb, evidence: S/B}
+  growth:
+    - {ticker: 300394.SZ, company: 天孚通信, theme: optical_interconnect, evidence: B/A}
+    - {ticker: 688498.SH, company: 源杰科技, theme: lasers_silicon_photonics, evidence: B}
+    - {ticker: 002281.SZ, company: 光迅科技, theme: optical_components, evidence: B}
+    - {ticker: 000988.SZ, company: 华工科技, theme: optical_components, evidence: B}
+    - {ticker: 002916.SZ, company: 深南电路, theme: advanced_packaging_pcb, evidence: B}
+    - {ticker: 600183.SH, company: 生益科技, theme: high_speed_materials, evidence: B}
+  options:
+    - {ticker: 002851.SZ, company: 麦格米特, theme: power_cooling_800vdc, evidence: A/B}
+    - {ticker: 02577.HK, company: 英诺赛科, theme: gan_800vdc, evidence: A/B}
+    - {ticker: 601869.SH, company: 长飞光纤, theme: ai_fiber_materials, evidence: B}
+    - {ticker: 600487.SH, company: 亨通光电, theme: ai_fiber_materials, evidence: B}
+    - {ticker: 600522.SH, company: 中天科技, theme: ai_fiber_materials, evidence: B}
+    - {ticker: 600584.SH, company: 长电科技, theme: advanced_packaging, evidence: B}
+    - {ticker: 603773.SH, company: 沃格光电, theme: glass_substrate_tgv, evidence: C/B-}
+  domestic_ai_stack:
+    - {ticker: 688256.SH, company: 寒武纪, theme: china_domestic_ai_stack, evidence: B/C}
+    - {ticker: 688041.SH, company: 海光信息, theme: china_domestic_ai_stack, evidence: B}
+    - {ticker: 603019.SH, company: 中科曙光, theme: domestic_servers, evidence: B}

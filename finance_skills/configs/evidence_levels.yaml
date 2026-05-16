@@ -1,0 +1,37 @@
+evidence_levels:
+  S:
+    name: Official direct evidence
+    examples:
+      - SEC filing
+      - 10-K / 10-Q / 8-K
+      - exchange announcement
+      - company IR release naming customer or contract
+      - two-party official announcement
+    usage: Can support core thesis if economics are material.
+  A:
+    name: High-quality external confirmation
+    examples:
+      - Reuters
+      - Bloomberg
+      - Wall Street Journal
+      - Financial Times
+      - official industry body
+    usage: Can support thesis, but cross-check if possible.
+  B:
+    name: Industry research or sell-side inference
+    examples:
+      - TrendForce
+      - LightCounting
+      - Omdia
+      - Dell'Oro
+      - SemiAnalysis
+      - public sell-side research
+    usage: Good for supply-chain inference and market sizing.
+  C:
+    name: Rumor or weak evidence
+    examples:
+      - social media
+      - stock forums
+      - unverified investor Q&A
+      - non-primary Chinese media
+    usage: Monitor only; do not use as core thesis.

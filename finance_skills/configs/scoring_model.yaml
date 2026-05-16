@@ -1,0 +1,23 @@
+scoring_model:
+  order_hardness: 0.20
+  profit_capture: 0.20
+  capacity_bottleneck: 0.15
+  technology_route_position: 0.20
+  technology_transition_upside: 0.15
+  valuation_and_risk: -0.10
+
+labels:
+  core:
+    definition: High success probability, strong evidence, already in financials.
+  growth:
+    definition: Strong growth and technology alignment, but less certainty than core.
+  option:
+    definition: High payoff if technology inflection occurs, but lower current evidence.
+  options:
+    definition: Alias used by watchlists for high-payoff optionality baskets.
+  high_risk:
+    definition: High upside but high uncertainty, financing, customer concentration, or valuation risk.
+  domestic_ai_stack:
+    definition: China-local AI compute and inference chain; evidence often requires policy and procurement cross-checks.
+  watch:
+    definition: Directionally relevant, but order or profit evidence is insufficient.

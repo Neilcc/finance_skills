@@ -1,0 +1,24 @@
+us_watchlist:
+  core:
+    - {ticker: NVDA, company: NVIDIA, theme: gpu_rack_scale_compute, evidence: S}
+    - {ticker: AVGO, company: Broadcom, theme: asic_tpu_custom_compute, evidence: S/A}
+    - {ticker: TSM, company: TSMC, theme: hbm_advanced_packaging, evidence: S}
+    - {ticker: MU, company: Micron, theme: hbm_advanced_packaging, evidence: S}
+    - {ticker: VRT, company: Vertiv, theme: power_cooling_800vdc, evidence: S/A}
+    - {ticker: ETN, company: Eaton, theme: power_cooling_800vdc, evidence: S/A}
+  growth:
+    - {ticker: LITE, company: Lumentum, theme: optical_interconnect, evidence: S/A}
+    - {ticker: COHR, company: Coherent, theme: optical_interconnect, evidence: S/A}
+    - {ticker: MRVL, company: Marvell, theme: asic_tpu_custom_compute, evidence: A/B}
+    - {ticker: ANET, company: Arista, theme: optical_interconnect, evidence: S/A}
+    - {ticker: GLW, company: Corning, theme: ai_fiber_materials, evidence: A}
+    - {ticker: APH, company: Amphenol, theme: ai_fiber_materials, evidence: A/B}
+  options:
+    - {ticker: ALAB, company: Astera Labs, theme: ai_interconnect_chips, evidence: S/A}
+    - {ticker: CRDO, company: Credo, theme: ai_interconnect_chips, evidence: A/B}
+    - {ticker: NVTS, company: Navitas, theme: power_cooling_800vdc, evidence: A/B}
+    - {ticker: ON, company: onsemi, theme: power_cooling_800vdc, evidence: A/B}
+  high_risk:
+    - {ticker: CRWV, company: CoreWeave, theme: ai_cloud, evidence: S/A}
+    - {ticker: NBIS, company: Nebius, theme: ai_cloud, evidence: A/B}
+    - {ticker: IREN, company: IREN, theme: ai_data_center_power, evidence: A/B}

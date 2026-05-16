@@ -1,0 +1,41 @@
+themes:
+  gpu_rack_scale_compute:
+    thesis: NVIDIA remains the highest-profit AI infrastructure platform, but rack-level co-design expands demand for networking, memory, power, cooling, and optics.
+  asic_tpu_custom_compute:
+    thesis: Hyperscalers are increasing ASIC/TPU share to reduce cost and diversify away from GPUs.
+  hbm_advanced_packaging:
+    thesis: HBM and advanced packaging are strategic capacity bottlenecks.
+  optical_interconnect:
+    thesis: Optical demand rises with cluster scale, but profit may migrate from module assembly to lasers, DSPs, silicon photonics, CPO, and OCS.
+  optical_components:
+    thesis: Lasers, passive components, WSS, connectors, and test equipment can capture upstream value when optical module demand accelerates.
+  lasers_silicon_photonics:
+    thesis: EML, CW light sources, silicon photonics, and CPO-ready optical engines are high-upside routes if AI clusters move beyond pluggable optics.
+  ai_interconnect_chips:
+    thesis: Retimers, DSPs, active electrical cables, PCIe/CXL connectivity, and Ethernet switching silicon can benefit from rack-scale AI architectures.
+  ai_pcb:
+    thesis: High-layer-count PCB, UBB, OAM carrier boards, switch boards, and high-speed materials become bottlenecks as AI servers and networking scale.
+  advanced_packaging_pcb:
+    thesis: Package substrates, high-end PCB, and advanced materials participate in the CoWoS/SoIC and AI accelerator packaging chain.
+  high_speed_materials:
+    thesis: Low-loss CCL, high-frequency laminates, and thermal materials gain pricing power when AI server and optical-network signal integrity requirements rise.
+  advanced_packaging:
+    thesis: Advanced packaging capacity, OSAT execution, hybrid bonding, and heterogeneous integration are shared constraints for GPU, ASIC, and HBM platforms.
+  glass_substrate_tgv:
+    thesis: Glass substrate and TGV are early-stage packaging options with high optionality but weak near-term order visibility.
+  power_cooling_800vdc:
+    thesis: AI rack power density forces migration to 800VDC/HVDC, GaN/SiC, liquid cooling, and grid upgrades.
+  gan_800vdc:
+    thesis: GaN devices and power modules could benefit if AI racks migrate from 48V/54V architectures toward 800VDC/HVDC.
+  ai_fiber_materials:
+    thesis: AI factories require high-density optical fiber, glass, connectors, and pre-terminated cabling.
+  ai_cloud:
+    thesis: GPU clouds can grow quickly when capacity is scarce, but unit economics, financing cost, utilization, and depreciation must be stress-tested.
+  ai_data_center_power:
+    thesis: Power-rich data-center operators and energy infrastructure assets can benefit from AI demand, but proof must come from contracted capacity and margins.
+  china_domestic_ai_stack:
+    thesis: DeepSeek/Qwen/Kimi/Doubao/Hunyuan plus Ascend/CANN/Cambricon/Hygon create a domestic inference stack.
+  domestic_servers:
+    thesis: Domestic AI servers and system integrators benefit from China-local accelerator deployment, but margin capture and inventory quality need close review.
+  commercial_space:
+    thesis: Reusable rockets and satellite internet are long-cycle options with lower near-term profit visibility than AI infrastructure.
