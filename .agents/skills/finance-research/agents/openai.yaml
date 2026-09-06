@@ -1,0 +1,6 @@
+interface:
+  display_name: "金融研究与条件决策"
+  short_description: "核验产业、现金流与估值，拆解交易记录并审查退出条件"
+  default_prompt: "使用 $finance-research，先核验来源与数据时点，再给结论、最强反证、触发条件及退出复核。"
+policy:
+  allow_implicit_invocation: true
