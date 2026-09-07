@@ -1,26 +1,26 @@
-# Codex handoff: finance-research v0.3.0
+# Codex handoff: finance-research v0.4.0
 
 ## Delivered
-A repo-discoverable standalone skill at `.agents/skills/finance-research/` with evidence discipline, economics/cash-flow/valuation research, core/tactical separation, four exit reviews, trader-study rules, and a new Serenity/@aleabitoreddit supply-chain bottleneck lens.
+A repo-discoverable standalone skill at `.agents/skills/finance-research/` combining four layers:
+1. economics / financial quality / valuation;
+2. Serenity-style supply-chain bottleneck discovery with primary-source verification;
+3. trader-record / tactical timing / exit discipline;
+4. UBS-style portfolio architecture: goals, SAA/TAA, reference currency, liquidity, diversification, leverage review, and rebalancing.
 
-## v0.3 focus
-The new lens treats social posts as discovery signals, not truth. It requires Codex to trace final demand through system architecture to modules, materials/equipment and upstream process constraints, then verify three things before calling something a bottleneck: supply constraint, substitution difficulty, and profit capture.
+All existing `finance_skills/` files are preserved. No current holdings, account balances, credentials or private chat records are included. No global installation or account changes have been performed.
 
-The seven-question Bottleneck Alpha check is: final demand, unit content, single-point bottleneck, substitution difficulty, semi-monopoly evidence, profit capture, and valuation/expectations. Qualification is tracked from sample to validation, qualification, design win/allocation, production order, ramp, revenue and cash collection. Supercycle claims require evidence across demand, supply and price/profit, not price alone.
-
-Serenity is confirmed to the user-provided `@aleabitoreddit` account, but public posts do not verify complete holdings, execution or returns. A public community distillation of thousands of posts is recorded only as a secondary index; its performance statistics and biographical claims are not inherited as facts.
+## Validation status
+Software/static package checks and behavioral acceptance are separate from strategy performance. Re-run all tests after this v0.4 update. The new UBS behavioral cases are intentionally marked unexecuted until Codex runs them in an independent host context.
 
 ## Requested Codex work
-1. Read root `AGENTS.md`, `.agents/skills/finance-research/SKILL.md`, `README.md`, and only the task-specific references.
+1. Read root `AGENTS.md`, `.agents/skills/finance-research/SKILL.md`, its `README.md`, and only task-relevant references.
 2. Run:
-   ```bash
-   python3 -m unittest discover -s .agents/skills/finance-research/tests -v
-   python3 .agents/skills/finance-research/scripts/check_package.py
-   ```
-3. Check `$finance-research` is discoverable in this checkout.
-4. Run the expanded behavioral prompts in `tests/acceptance.md` where independent contexts/tools are available; otherwise mark them not run with the concrete limitation.
-5. Verify the model does **not** convert “Serenity says semi-monopoly”, qualification counts, memory price increases, or third-party Serenity performance statistics directly into investment facts.
-6. Check compatibility with the legacy framework under `finance_skills/` without overwriting historical theses.
-7. Fix only demonstrated package defects on this branch. Do not merge, place trades, fetch private accounts, change global user settings, or install into global skill directories.
+   - `python3 -m unittest discover -s .agents/skills/finance-research/tests -v`
+   - `python3 .agents/skills/finance-research/scripts/check_package.py`
+   Report Python version, exact commands, outputs and failures.
+3. Check `$finance-research` is discoverable in this checkout. Do not claim global installation.
+4. Execute the behavioral acceptance prompts where independent contexts/tools are actually available. Pay special attention to Serenity evidence separation and UBS SAA/TAA/rebalancing cases.
+5. Verify the portfolio layer never invents target allocations without current goals/liquidity/risk/account data, and never lets a high-conviction single-stock thesis override portfolio risk limits.
+6. Fix only demonstrated package defects on this branch. Do not merge, trade, fetch private accounts, change global settings, or overwrite the legacy historical thesis.
 
-Software tests and static checks are not strategy validation. A GitHub PR/comment is not proof that Codex has executed the host-side acceptance run.
+The GitHub PR and a confirmed Codex run are different states. A comment or passing static test is not evidence of profitable trading or suitability for a real portfolio.
