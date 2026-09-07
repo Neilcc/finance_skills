@@ -1,5 +1,5 @@
 {
-  "version": "0.3.0",
+  "version": "0.4.0",
   "integrity": "static-structure-plus-entrypoint-sentinel",
-  "note": "Package QA metadata only. This is not a cryptographic signature and does not validate sources, agent behavior, or trading performance."
+  "note": "Package QA metadata only. This is not a cryptographic signature and does not validate sources, agent behavior, portfolio suitability, or trading performance."
 }
