@@ -8,7 +8,7 @@ ROOT = Path(__file__).resolve().parents[1]
 REQUIRED = ('SKILL.md', 'README.md', 'SOURCES.md', 'agents/openai.yaml',
             'references/evidence.md', 'references/research.md',
             'references/decisions.md', 'references/traders.md',
-            'references/serenity.md', 'assets/decision-card.md',
+            'references/serenity.md', 'references/portfolio-ubs.md', 'assets/decision-card.md',
             'scripts/finance_math.py', 'scripts/check_package.py',
             'tests/test_finance.py', 'tests/acceptance.md')
 
@@ -26,9 +26,8 @@ def check(root: Path = ROOT) -> dict:
     skill = (root / 'SKILL.md').read_text(encoding='utf-8')
     if not skill.startswith('---\n') or '\nname: finance-research\n' not in skill:
         errors.append('invalid skill front matter')
-    if 'version: "0.3.0"' not in skill:
+    if 'version: "0.4.0"' not in skill:
         errors.append('unexpected skill version')
-    # Lightweight tamper sentinel for the entrypoint. This is package QA, not cryptographic signing.
     if not skill.rstrip().endswith('实际行动权限是否未越界？'):
         errors.append('hash mismatch: SKILL.md')
     for path in re.findall(r'(?:references|assets|scripts)/[A-Za-z0-9_.-]+', skill):
@@ -41,7 +40,7 @@ def check(root: Path = ROOT) -> dict:
             errors.append(f'unknown source in {p.name}: {sorted(used - declared)}')
     try:
         meta = json.loads((root / 'manifest.json').read_text(encoding='utf-8'))
-        if meta.get('version') != '0.3.0':
+        if meta.get('version') != '0.4.0':
             errors.append('manifest version mismatch')
     except (OSError, ValueError, TypeError) as exc:
         errors.append('manifest error: ' + str(exc))
