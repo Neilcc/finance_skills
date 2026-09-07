@@ -1,6 +1,6 @@
 # 来源与实际阅读范围
 
-v0.3.0，2026-09-07。S01–S15继承v0.2；本轮新增 Serenity 原帖与一个社区结构化索引。仅保存原创概括和定位，不分发书籍/帖子全文。
+v0.4.0，2026-09-07。S01–S19继承v0.3；本轮新增 UBS 2025 CIO 官方投资哲学手册，并将其限定为组合架构与投资纪律来源。仅保存原创概括和定位，不分发书籍/帖子/PDF全文。
 
 | ID | 原始来源与地址 | 已读范围 / 允许用途 / 限制 |
 |---|---|---|
@@ -15,7 +15,7 @@ v0.3.0，2026-09-07。S01–S15继承v0.2；本轮新增 Serenity 原帖与一�
 | S09 | 上海证券交易所：https://www.sse.com.cn/disclosure/diclosure/public/dailydata/ | 仅栏目口径；不能核验深市视觉中国案例 |
 | S10 | Agent Skills specification：https://agentskills.io/specification | SKILL.md格式、必填字段、目录规范；实现参考 |
 | S11 | OpenAI Build skills：https://developers.openai.com/codex/skills/ | v0.2读取；目录发现、显式调用和按需加载参考；用户本机未验收 |
-| S12 | Anthropic Claude Code：https://code.claude.com/docs/en/skills | v0.1读取安装位置；v0.3只交付Codex配置 |
+| S12 | Anthropic Claude Code：https://code.claude.com/docs/en/skills | v0.1读取安装位置；v0.4只交付Codex配置 |
 | S13 | Damodaran第四版配套网站：https://pages.stern.nyu.edu/~adamodar/New_Home_Page/Inv4ed.htm | 网站正文和目录；HTML标题版本残留冲突已知；不是教材全文 |
 | S14 | 淘股吧第三方帖子：https://tgb.cn/a/1Q8dS4D1Ie4 | 仅公开开头；完整内容要登录；不是本人核验材料，排除出策略证据 |
 | S15 | OpenAI GitHub integration：https://learn.chatgpt.com/docs/third-party/github | v0.2读取GitHub交接方式；发布请求不等于Codex实际运行 |
@@ -23,5 +23,7 @@ v0.3.0，2026-09-07。S01–S15继承v0.2；本轮新增 Serenity 原帖与一�
 | S17 | Serenity X post, 2026-03-17：https://x.com/aleabitoreddit/status/2033889361801175094 | 已读公开原帖；作者自述偏好 semi-monopolies，并区分 substrate favorites / compounders / upside candidates；仅用于方法论，不继承当前推荐 |
 | S18 | yan-labs/serenity-aleabitoreddit：https://github.com/yan-labs/serenity-aleabitoreddit/blob/main/serenity-aleabitoreddit/SKILL.md | 已读公开SKILL.md；其自述由6,568 tweets+4 articles提炼，可作为二手主题索引；未独立审计其数据集、回测、胜率/收益结论，不复制其文本或把统计当事实 |
 | S19 | Serenity X post, 2026-03-19：https://x.com/aleabitoreddit/status/2034752613246542215 | 已读公开原帖；作者将自身叙事概括为 Photonics 和 Memory Supercycles；只用于理解公开框架，不证明账户绩效 |
+| S20 | UBS Chief Investment Office GWM, Investing with UBS Wealth Management — Our CIO Investment Philosophy：https://www.ubs.com/content/dam/assets/wma/us/shared/documents/Investing_with_UBS_WM-Our_CIO_Investment_Philosophy.pdf | 2025-05-21，36页；本轮读取目录、CIO Wealth Journey、Portfolio Philosophy、目标与总财富框架、组合构建、SAA/TAA/工具选择、流动性/参考币种相关内容及Review/Rebalancing和杠杆提示，并截图核对第4、25、29页。用于组合架构/纪律；不是个股研究、收益保证或用户个人适配结论 |
+| S21 | UBS, The New Financial World：https://onlineservices.ubs.com/staticfiles/pws/adobe/The-New-Financial-World.pdf | 旧版UBS公开白皮书；只用于交叉确认“风险画像→SAA→TAA→组合构建/实施→监控”的结构化流程，不作为2026市场观点 |
 
-本包五维框架与旧仓库的公开研究方法兼容，但不会根据旧文档或社媒推定最新持仓、观点或行情。所有新增现实判断必须重新搜集对应原始证据。
+本包把方法来源分工为：经济学/估值负责机制与定价，Serenity负责供应链线索发现，交易者案例负责行为与时机研究，UBS负责组合架构与再平衡纪律。任何现实判断仍需重新搜集对应原始证据；组合比例必须基于用户当前目标和授权数据，而不是从手册照搬。
