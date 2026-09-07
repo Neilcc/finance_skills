@@ -1,19 +1,5 @@
 {
-  "version": "0.2.0",
-  "algorithm": "sha256",
-  "files": {
-    "README.md": "ded57deb2ee02cefedb1c527e9353db3d84d5b58b7779c5f83173e529627123f",
-    "SKILL.md": "54fdb8387708ecebf5544db06bd87c6b3f36882a31bae3ce591fa83b0dbc325a",
-    "SOURCES.md": "c52491f36fe03da95ebf26f70c92ba88ca1cf0025a634cb0730c181311c46654",
-    "agents/openai.yaml": "99ca1483eb1a79eaa59fe09e60df1d4faa940434b83bdf29543b7cb59c981056",
-    "assets/decision-card.md": "bb809acffec8e29318edde59e65f1e5eca86c58e8ddb723ebfeb10012af583a7",
-    "references/decisions.md": "b7e573e549cac96d824019b50491f549ce1b6027b5df4cfe8d1733822548a0b3",
-    "references/evidence.md": "d263b91fb9cd14d03679f2e88b997aae127de16f9dde8db8805eca7a1adec705",
-    "references/research.md": "6fa7f96813b6f08dcdcbbbab6cc8ed8597f196f6330b437618e6947d73ad6085",
-    "references/traders.md": "7776bb2f384170d2114ac027b61fcd30d10aa9b70d4b992eedc2f4cf1adc7bc4",
-    "scripts/check_package.py": "3aa3bbde3b0a8213e0e12e92ee2155255d22c4cb9dfe253686d233a00e510aac",
-    "scripts/finance_math.py": "30ea1ba389b1dafe7e21be64b656d6afe1d50ec1f74503eaf2c2f0945b141937",
-    "tests/acceptance.md": "a2acc6b7ccc6eff73123382641695e62839b7956673e599049e95c13467d9418",
-    "tests/test_finance.py": "f7685177fc96c1c7461747d36a762da2a60e1533c469df347ead622c9d4a377c"
-  }
+  "version": "0.3.0",
+  "integrity": "static-structure-plus-entrypoint-sentinel",
+  "note": "Package QA metadata only. This is not a cryptographic signature and does not validate sources, agent behavior, or trading performance."
 }
