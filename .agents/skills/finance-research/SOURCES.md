@@ -1,6 +1,6 @@
 # 来源与实际阅读范围
 
-v0.2.0，2026-09-06。以下S01–S14的阅读记录继承v0.1.0；本次主要优化工作流与工程实现，没有新读取整本书或新增核验的个人实盘。仅保存原创概括和定位，不分发书籍/帖子全文。
+v0.3.0，2026-09-07。S01–S15继承v0.2；本轮新增 Serenity 原帖与一个社区结构化索引。仅保存原创概括和定位，不分发书籍/帖子全文。
 
 | ID | 原始来源与地址 | 已读范围 / 允许用途 / 限制 |
 |---|---|---|
@@ -14,10 +14,14 @@ v0.2.0，2026-09-06。以下S01–S14的阅读记录继承v0.1.0；本次主要�
 | S08 | SEC, Beginners’ Guide to Financial Statements：https://www.sec.gov/about/reports-publications/beginners-guide-financial-statements | 财报概览、现金流、附注；教育概念，不替代具体会计准则与公司披露 |
 | S09 | 上海证券交易所：https://www.sse.com.cn/disclosure/diclosure/public/dailydata/ | 仅栏目口径；不能核验深市视觉中国案例 |
 | S10 | Agent Skills specification：https://agentskills.io/specification | SKILL.md格式、必填字段、目录规范；实现参考 |
-| S11 | OpenAI Build skills：https://developers.openai.com/codex/skills/ | 本轮重新读取，重定向ChatGPT Learn；目录发现、显式调用、按需加载和openai.yaml；用户本机未验收 |
-| S12 | Anthropic Claude Code：https://code.claude.com/docs/en/skills | v0.1读取安装位置；本轮未重新核验，v0.2只交付Codex配置 |
+| S11 | OpenAI Build skills：https://developers.openai.com/codex/skills/ | v0.2读取；目录发现、显式调用和按需加载参考；用户本机未验收 |
+| S12 | Anthropic Claude Code：https://code.claude.com/docs/en/skills | v0.1读取安装位置；v0.3只交付Codex配置 |
 | S13 | Damodaran第四版配套网站：https://pages.stern.nyu.edu/~adamodar/New_Home_Page/Inv4ed.htm | 网站正文和目录；HTML标题版本残留冲突已知；不是教材全文 |
 | S14 | 淘股吧第三方帖子：https://tgb.cn/a/1Q8dS4D1Ie4 | 仅公开开头；完整内容要登录；不是本人核验材料，排除出策略证据 |
-| S15 | OpenAI GitHub integration：https://learn.chatgpt.com/docs/third-party/github | 本轮读取GitHub交接方式；实际运行仍依赖该仓库Codex集成和授权，发布请求不等于执行成功 |
+| S15 | OpenAI GitHub integration：https://learn.chatgpt.com/docs/third-party/github | v0.2读取GitHub交接方式；发布请求不等于Codex实际运行 |
+| S16 | Serenity X profile：https://x.com/aleabitoreddit | 用户给出的唯一主页；用于确认公开账号身份/研究定位；不证明收益、完整持仓或职业背景 |
+| S17 | Serenity X post, 2026-03-17：https://x.com/aleabitoreddit/status/2033889361801175094 | 已读公开原帖；作者自述偏好 semi-monopolies，并区分 substrate favorites / compounders / upside candidates；仅用于方法论，不继承当前推荐 |
+| S18 | yan-labs/serenity-aleabitoreddit：https://github.com/yan-labs/serenity-aleabitoreddit/blob/main/serenity-aleabitoreddit/SKILL.md | 已读公开SKILL.md；其自述由6,568 tweets+4 articles提炼，可作为二手主题索引；未独立审计其数据集、回测、胜率/收益结论，不复制其文本或把统计当事实 |
+| S19 | Serenity X post, 2026-03-19：https://x.com/aleabitoreddit/status/2034752613246542215 | 已读公开原帖；作者将自身叙事概括为 Photonics 和 Memory Supercycles；只用于理解公开框架，不证明账户绩效 |
 
-本包五维框架与旧仓库的公开研究方法兼容，但不会根据旧文档推定最新持仓、观点或行情。所有新增现实判断必须重新搜集对应原始证据。
+本包五维框架与旧仓库的公开研究方法兼容，但不会根据旧文档或社媒推定最新持仓、观点或行情。所有新增现实判断必须重新搜集对应原始证据。
