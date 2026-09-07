@@ -28,6 +28,9 @@ def check(root: Path = ROOT) -> dict:
         errors.append('invalid skill front matter')
     if 'version: "0.3.0"' not in skill:
         errors.append('unexpected skill version')
+    # Lightweight tamper sentinel for the entrypoint. This is package QA, not cryptographic signing.
+    if not skill.rstrip().endswith('实际行动权限是否未越界？'):
+        errors.append('hash mismatch: SKILL.md')
     for path in re.findall(r'(?:references|assets|scripts)/[A-Za-z0-9_.-]+', skill):
         if not (root / path).is_file():
             errors.append('broken reference: ' + path)
